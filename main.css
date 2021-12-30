@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.btn_green {
+    padding: 10px 20px;
+    background-color: rgb(32, 134, 55);
+    color: white;
+    border-radius: 8px;
+}
+
+body {
+
+    background-color: rgb(24, 26, 27);
+}
+
+/* header */
+
+.header_img {
+    height: 800px;
+    background-image: url('https://www.wallpapertip.com/wmimgs/221-2213572_wallpaper-night-city-street-lighting-traffic-sydney.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header_content {
+    height: 800px;
+}
+
+.header_content,
+.header_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.header_text h1 {
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.header_text p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* nav */
+.navbar {
+    background-color: rgba(29, 27, 27, 0.2);
+    z-index: 5;
+}
+
+.hicon {
+    color: rgb(97, 217, 124);
+}
+
+.nav_t_green {
+    color: rgb(97, 217, 124);
+}
+
+.nav_text {
+    color: rgb(211, 206, 206)
+}
+
+.nav_text, .nav_t_green {
+    font-size: 35px;
+}
+
+.green_uppercase {
+    font-size: 20px;
+    font-weight: 300;
+    transition: .3s;
+}
+
+.green_uppercase:hover {
+    border-bottom: rgb(32, 134, 55);
+}
+
+/* icons */
+#about {
+    background-color: rgb(30, 33, 34);
+}
+
+.icon {
+    border-radius: 100%;
+    padding: 20px 20px;
+    background-color: rgb(32, 134, 55);
+    color: rgb(226, 216, 216);
+}
+
+.icons_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.ticon {
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(211, 206, 206);
+    font-size: 15px;
+    text-align: center;
+}
+
+.ticon h2 {
+    font-weight: 300;
+}
+
+/* under_icons */
+
+.icon__img {
+    height: 360px;
+}
+
+.icon__img img {
+    width: 100%;
+}
+
+.column_imprt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.icon__text {
+    height: 360px;
+    background-color: rgb(32, 134, 55);
+    color: white;
+    text-align: center;
+}
+
+.icon_text_content {
+    width: 70%;
+    height: 360px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn_icons {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(68, 65, 65);
+    background-color: rgba(128, 128, 128, 0);
+    color: white;
+}
+
+/* cases */
+
+.a img {
+    width: 260px;
+    height: 250px;
+    transition: .3s;
+}
+
+.a img:hover {
+    opacity: .5;
+}
+
+.cases__text {
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(211, 206, 206);
+    text-align: center;
+}
+
+.cases__text h1 {
+    font-weight: 300;
+}
+
+
+/* blog */
+.blog_post {
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(2, 106, 166);
+    color: rgb(232, 230, 227)
+}
+
+.blog_post_img img {
+    width: 90%;
+    height: 500px;
+}
+
+.btn_outline {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(68, 65, 65);
+    background-color: rgba(128, 128, 128, 0);
+    color: white;
+}
+
+
+
+/* team */
+
+.team_text {
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(211, 206, 206);
+    text-align: center;
+}
+
+.team_imgs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    color: rgb(226, 216, 216);
+    text-align: center;
+}
+
+.team_imgs img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+.team_text h1 {
+    font-weight: 300;
+}
+
+
+
+/* contact */
+.contact_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contact_inputs {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.contact_inputs h2 {
+    color: rgb(200, 195, 188);
+    font-weight: 300;
+    font-size: 34px;
+    align-self: flex-start;
+}
+
+.contact_inputs input {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    background-color: #181a1b;
+    border: #cec4c4 1px solid;
+    color: white;
+}
+
+.btn_c {
+    width: 100%;
+    text-align: center;
+}
+
+
+/* footer */
+
+footer {
+    background-color: rgb(38, 42, 43);
+}
+
+.social_content {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social_media {
+    width: 250px;
+    height: 200px;
+    color: #cec4c4;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.f_icons {
+    transition: .3s;
+}
+
+.f_icons:hover {
+    color: rgb(32, 134, 55);
+}
+
+
+
+@media (max-width: 768px) {
+    .icons_content {
+        flex-direction: column;
+    }
+
+    .icon__img {
+        display: none;
+    }
+    .a img {
+        width:100%;
+        height: 300px;
+        transition: .3s;
+        margin-top: 10px;
+    }
+    .a{
+        display: flex;
+        justify-content: center;
+        flex-direction: column
+    }
+    .blog_post_img{
+        display: none;
+    }
+    .blog_post{
+        width: 100%;
+    }
+    .team_imgs {
+        flex-direction: column;
+    }
+    .contact_content {
+        flex-direction: column;
+    }
+    .contact_inputs {
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .icons_content {
+        flex-direction: column;
+    }
+
+    .icon__img {
+        display: none;
+    }
+    .a img {
+        width:100%;
+        height: 200px;
+        transition: .3s;
+        margin-top: 10px;
+    }
+    .a{
+        display: flex;
+        justify-content: center;
+        flex-direction: column
+    }
+    .blog_post_img{
+        display: none;
+    }
+    .blog_post{
+        width: 100%;
+    }
+    .team_imgs {
+        flex-direction: column;
+    }
+    .contact_content {
+        flex-direction: column;
+    }
+    .contact_inputs {
+        width: 100%;
+    }
+}
